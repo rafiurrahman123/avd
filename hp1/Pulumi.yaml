@@ -1,0 +1,10 @@
+name: sincere-silicon-kiwi
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: azure virtual desktop
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://www.pulumi.com/ai/api/project/35f7ee41-575c-4130-ace2-11b38a515b2c.zip
